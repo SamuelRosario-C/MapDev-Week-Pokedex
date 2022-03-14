@@ -2,7 +2,7 @@
 
 
 ### Bom dia, Boa Tarde ou Boa Noite.
-Curte Pokémon ? eu criei um site para que as pessoas possam ver os meus pokémon favoritos, ela foi contruida com :
+Curte Pokémon ? eu criei um site para que as pessoas possam ver os meus pokémon favoritos, esse site foi construindo com :
 - HTML
 - CSS
 - JavaScript
