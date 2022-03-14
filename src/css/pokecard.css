@@ -1,0 +1,106 @@
+.pokecard-pokemon {
+    display: none;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.pokecard-pokemon .pokecard-top {
+    padding: 30px 40px 0;
+}
+
+.pokecard-pokemon .name {
+    margin-bottom: 5px;
+
+}
+
+.pokecard-pokemon .type {
+    font-size: 12px;
+    background-color: #fff;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+
+}
+
+.pokecard-pokemon .pokecard-datalhes {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokecard-pokemon .pokecard-img {
+    width: 250px;
+    height: 250px;
+}
+
+.pokecard-pokemon img {
+    max-width: 120%;
+    margin: -50px 40px;
+
+}
+
+.pokecard-pokemon .pokecard-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 70px 30px 30px;
+    margin-top: -60px;
+    border-radius: 0 0 8px 8px;
+
+}
+
+
+.pokecard-pokemon .pokecard-info h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+
+}
+
+.pokecard-pokemon .pokecard-info .pokecard-status,
+.pokecard-pokemon .pokecard-info .pokecard-skills{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.pokecard-pokemon .pokecard-info .pokecard-skills ul li,
+.pokecard-pokemon .pokecard-info .pokecard-status ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pokecard-pokemon.open{
+    display: block;
+}
+
+.type-fire {
+    background-color: #ED8A8B;
+}
+
+.type-electric {
+    background-color: #fcc719;
+}
+
+.type-water {
+    background-color: #76befe;
+}
+
+.type-plant {
+    background-color: #49d0b0;
+}
+
+.type-ghost {
+    background-color: #ba68c8;
+}
+
+.type-dragon {
+    background-color: #c29791;
+}
+
+.type-fight {
+    background-color: #da3f3f;
+}

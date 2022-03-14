@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/pokecard.css">
+    <link rel="stylesheet" href="./src/css/pokelist.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - MapDev Week</title>
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+
+        <!-- Cartoes dos pokemons -->
+            <div class="pokecard">
+
+                <!-- Pikachu -->
+                <div class="pokecard-pokemon type-electric" id="card-pikachu">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Pikachu</h2>
+                            <span>#001</span>
+                        </div>
+                        <span class="type">Elétrico</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/pikachu.png" alt="Pikachu imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bulbasaur -->
+                <div class="pokecard-pokemon type-plant" id="card-bulbasaur">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Bulbasaur</h2>
+                            <span>#002</span>
+
+                        </div>
+                        <span class="type">Planta</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/bulbasaur.png" alt="Bulbasaur imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charmander -->
+                <div class="pokecard-pokemon type-fire" id="card-charmander">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Charmander</h2>
+                            <span>#003</span>
+
+                        </div>
+                        <span class="type">Fogo</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/charmander.png" alt="Charmander imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Greninja -->
+                <div class="pokecard-pokemon type-water" id="card-greninja">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Greninja</h2>
+                            <span>#004</span>
+
+                        </div>
+                        <span class="type">Lutador</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/greninja.png" alt="Greninja imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Shuriken da Água</li>
+                                <li>Multiplicar</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gengar -->
+                <div class="pokecard-pokemon type-ghost" id="card-gengar">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Gengar</h2>
+                            <span>#005</span>
+
+                        </div>
+                        <span class="type">Gengar</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/gengar.png" alt="Gengar imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dragonite -->
+                <div class="pokecard-pokemon type-dragon" id="card-dragonite">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Dragonite</h2>
+                            <span>#006</span>
+
+                        </div>
+                        <span class="type">Dragão</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/dragonite.png" alt="Dragonite imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lucario -->
+                <div class="pokecard-pokemon type-fight open" id="card-lucario">
+                    <div class="pokecard-top">
+                        <div class="pokecard-datalhes">
+                            <h2 class="name">Lucario</h2>
+                            <span>#006</span>
+
+                        </div>
+                        <span class="type">Lutador</span>
+
+                        <div class="pokecard-img">
+                            <img src="./src/imagens/lucario.png" alt="lucario imagem">
+                        </div>
+                    </div>
+                    <div class="pokecard-info">
+                        <div class="pokecard-status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Ataque: 600</li>
+                                <li>Defesa: 500</li>
+                                <li>Velocidade: 300</li>
+                                <li>Total: 1700</li>
+                            </ul>
+                        </div>
+                        <div class="pokecard-skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="pokedex-list">
+                <ul>
+
+                    <!-- Cabeça Pikachu -->
+                    <li class="pokedex-list-pokemon" id="pikachu">
+                        <img src="./src/imagens/cabeca-pikachu.png" alt="cabeça do pikachu">
+                        <span>Pikachu</span>
+                    </li>
+
+                    <!-- Cabeça Bulbasaur -->
+                    <li class="pokedex-list-pokemon" id="bulbasaur">
+                        <img src="./src/imagens/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
+                        <span>Bulbasaur</span>
+                    </li>
+
+                    <!-- Cabeça Charmander -->
+                    <li class="pokedex-list-pokemon" id="charmander">
+                        <img src="./src/imagens/cabeca-charmander.png" alt="cabeça do charmander">
+                        <span>Charmander</span>
+                    </li>
+
+                    <!-- Cabeça Greninja -->
+                    <li class="pokedex-list-pokemon" id="greninja">
+                        <img src="./src/imagens/cabeca-greninja.png" alt="cabeça do greninja">
+                        <span>Greninja</span>
+                    </li>
+
+                    <!-- Cabeça Gengar -->
+                    <li class="pokedex-list-pokemon" id="gengar">
+                        <img src="./src/imagens/cabeca-gengar.png" alt="cabeça do gengar">
+                        <span>Gengar</span>
+                    </li>
+
+                    <!-- Cabeça Dragonite -->
+                    <li class="pokedex-list-pokemon" id="dragonite">
+                        <img src="./src/imagens/cabeca-dragonite.png" alt="cabeça do dragonite">
+                        <span>Dragonite</span>
+                    </li>
+
+                    <!-- Cabeça Lucario -->
+                    <li class="pokedex-list-pokemon active" id="lucario">
+                        <img src="./src/imagens/cabeca-lucario.png" alt="cabeça do lucario">
+                        <span>Lucario</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
